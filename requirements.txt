@@ -1,0 +1,8 @@
+pandas
+numpy
+random
+scikit-learn
+fastapi
+json
+tkinter
+requests
