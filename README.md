@@ -39,9 +39,12 @@ uvicorn api:app --reload --host 0.0.0.0 --port 8001
 uvicorn intapi:app --reload --host 0.0.0.0 --port 8002
 
 
-# Para acessar usando outra maquina na rede local use:
+# Para acessar usando outra maquina na rede local use: 
+
 -No outro dispositivo, substitua 127.0.0.1 pelo IP da sua máquina:
+
 -Para api.py (recomendações): http://192.168.1.5:8001/teachers ou http://192.168.1.5:8001/recommend/{teacher_id}
+
 -Para intapi.py (interface interativa): http://192.168.1.5:8002/
 
 
